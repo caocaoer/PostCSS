@@ -1,0 +1,11 @@
+body{
+    display: flex;
+}
+
+:root {
+    --text-color: black;
+}
+    
+div {
+    color: var(--text-color);
+}
