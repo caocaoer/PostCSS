@@ -3,3 +3,11 @@ body{
     background: #fff;
     color: red;
 }
+
+:root {
+    --text-color: blue;
+}
+    
+div {
+    color: var(--text-color);
+}
